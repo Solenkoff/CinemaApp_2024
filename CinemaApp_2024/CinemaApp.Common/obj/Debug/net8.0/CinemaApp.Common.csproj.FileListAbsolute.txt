@@ -1,0 +1,11 @@
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\bin\Debug\net8.0\CinemaApp.Common.deps.json
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\bin\Debug\net8.0\CinemaApp.Common.dll
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\bin\Debug\net8.0\CinemaApp.Common.pdb
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\obj\Debug\net8.0\CinemaApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\obj\Debug\net8.0\CinemaApp.Common.AssemblyInfoInputs.cache
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\obj\Debug\net8.0\CinemaApp.Common.AssemblyInfo.cs
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\obj\Debug\net8.0\CinemaApp.Common.csproj.CoreCompileInputs.cache
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\obj\Debug\net8.0\CinemaApp.Common.dll
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\obj\Debug\net8.0\refint\CinemaApp.Common.dll
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\obj\Debug\net8.0\CinemaApp.Common.pdb
+C:\Z__WEB\CinemaApp_2024\CSharpWeb_CinemaApp_Sept2024\CinemaApp.Common\obj\Debug\net8.0\ref\CinemaApp.Common.dll
