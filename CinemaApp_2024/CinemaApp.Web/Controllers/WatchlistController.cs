@@ -7,9 +7,9 @@
 
     using static Common.EntityValidationConstants.Movie;
 
-    using CinemaApp.Data;
-    using CinemaApp.Data.Models;
-    using CinemaApp.Web.ViewModels.Watchlist;
+    using Data;
+    using Data.Models;
+    using ViewModels.Watchlist;     
 
     [Authorize]
     public class WatchlistController : BaseController

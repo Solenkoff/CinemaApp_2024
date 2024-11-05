@@ -7,8 +7,14 @@ namespace CinemaApp.Web
     using Microsoft.AspNetCore.Identity;
 
     using Data;
-    using CinemaApp.Data.Models;
+    using Data.Models;
+    using Services.Mapping;
+
     using Infrastructure.Extensions;
+    using CinemaApp.Web.ViewModels;
+    using CinemaApp.Data.Repository.Interfaces;
+    using System.Net;
+    using CinemaApp.Data.Repository;
 
     public class Program
     {
@@ -21,7 +27,7 @@ namespace CinemaApp.Web
             builder.Services
                 .AddDbContext<CinemaDbContext>(options =>
                 {
-                    // Like OnConfiguring
+                    // Like OnConfiguringi
                     options.UseSqlServer(connectionString);
                 });
 
@@ -40,10 +46,19 @@ namespace CinemaApp.Web
                 cfg.LoginPath = "/Identity/Account/Login";
             });
 
+            //builder.Services.AddScoped<IRepository<Movie, Guid>, BaseRepository<Movie, Guid>>();
+            //builder.Services.AddScoped<IRepository<Cinema, Guid>, BaseRepository<Cinema, Guid>>();
+            //builder.Services.AddScoped<IRepository<CinemaMovie, object>, BaseRepository<CinemaMovie, object>>();
+            //builder.Services.AddScoped<IRepository<ApplicationUserMovie, object>, BaseRepository<ApplicationUserMovie, object>>();
+
+            builder.Services.RegisterRepositories(typeof(ApplicationUser).Assembly);
+
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
 
              WebApplication app = builder.Build();
+
+            AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).Assembly);
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

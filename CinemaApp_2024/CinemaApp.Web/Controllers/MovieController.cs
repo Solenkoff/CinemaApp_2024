@@ -10,15 +10,18 @@
 
     using static Common.EntityValidationConstants.Movie;
     using CinemaApp.Web.ViewModels.Cinema;
+    using CinemaApp.Data.Repository.Interfaces;
 
     public class MovieController : BaseController
     {
 
         private readonly CinemaDbContext dbContext;
+        private IRepository<Movie, Guid> movieRepository;
 
-        public MovieController(CinemaDbContext dbContext)
+        public MovieController(CinemaDbContext dbContext, IRepository<Movie, Guid> movieRepo)
         {
             this.dbContext = dbContext;
+            this.movieRepository = movieRepo;
         }
 
 

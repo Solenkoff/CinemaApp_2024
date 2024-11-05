@@ -1,8 +1,9 @@
 ﻿namespace CinemaApp.Data.Configuration
 {
-    using CinemaApp.Data.Models;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+    using Data.Models;
 
     public class ApplicationUserMovieConfiguration : IEntityTypeConfiguration<ApplicationUserMovie>
     {
